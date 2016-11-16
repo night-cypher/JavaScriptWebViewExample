@@ -1,0 +1,37 @@
+<html>
+<head>
+    <style>
+body{
+
+}
+input{
+
+width: 300px;
+padding:10px;
+
+}
+div#content{
+padding:20px;
+
+}
+</style>
+    <script type="text/javascript">
+    function showToastA(toastmsg) {
+        InterfaceName.showToast(toastmsg);
+    }
+ function navigateToAnotherActivityA() {
+        InterfaceName.navigateToAnotherActivity();
+    }
+</script>
+</head>
+<body>
+<center>
+    <h3>Javascript bind to Android</h3>
+
+    <div>
+        <input type="button" value="Show Toast" onClick="showToastA('Message from Javascript')" /><br/><br/>
+        <input type="button" value="Go to Another Activity" onClick="navigateToAnotherActivityA()" />
+    </div>
+</center>
+</body>
+</html>
